@@ -1,10 +1,6 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
-</script>
-
 <template>
   <div>
-    HelloWorld
+    <NavBar />
   </div>
   <!-- <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
@@ -21,3 +17,15 @@ import { RouterLink, RouterView } from 'vue-router'
 
   <RouterView /> -->
 </template>
+
+<script>
+import { RouterLink, RouterView } from 'vue-router';
+import NavBar from './components/NavBar.vue';
+
+export default {
+  name: 'App',
+  components: {
+    NavBar,
+  },
+};
+</script>
