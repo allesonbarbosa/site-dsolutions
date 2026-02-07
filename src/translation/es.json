@@ -2,11 +2,33 @@
   "navbar": {
     "home": "Home",
     "sobre": "Sobre",
-    "servicos": "Servicios",
+    "solucoes": "Soluciones",
     "contato": "Contacto"
   },
   "heroCard": {
     "titulo": "Inteligencia de datos aplicada al comercio exterior",
     "descricao": "A partir de datos de operaciones de importación y exportación, Dsolutionscom genera información estratégica que orienta decisiones más eficientes y consistentes."
+  },
+  "aboutCard": {
+    "quemSomos": {
+      "titulo": "¿Quiénes somos?",
+      "descricao": "Dsolutionscom es una empresa de inteligencia de datos aplicada al comercio exterior, enfocada en apoyar a las empresas para que sus operaciones de importación y exportación sean más organizadas, consistentes y eficientes. Nuestro trabajo comienza con el análisis de datos operativos para generar información estratégica que sustente decisiones alineadas con las realidades logísticas."
+    },
+    "nossaAtuacao": {
+      "titulo": "Nuestro desempeño",
+      "descricao": "Con una estructura ágil y un enfoque consultivo, trabajamos estrechamente con el equipo de operaciones, conectando datos, análisis y asesoramiento especializado. Iniciamos nuestras operaciones en Brasil con una metodología diseñada para atender las operaciones con una perspectiva global."
+    },
+    "inteligenciaDados": {
+      "titulo": "Cómo entendemos la inteligencia de datos",
+      "descricao": "Para Dsolutionscom, la inteligencia de datos va más allá de la tecnología. Implica comprender el contexto operativo, interpretar la información con discernimiento y respaldar decisiones que aporten mayor claridad, previsibilidad y eficiencia."
+    },
+    "nossoPosicionamento": {
+      "titulo": "Nuestro posicionamiento",
+      "descricao": "Creemos que operaciones más eficientes resultan de información bien estructurada, interpretación adecuada de datos y decisiones alineadas con las realidades logísticas."
+    },
+    "visao": {
+      "titulo": "Visión",
+      "descricao": "Actuar como referente en inteligencia de datos aplicada al comercio exterior, apoyando a las empresas en la realización de operaciones cada vez más eficientes y mejor orientadas."
+    }
   }
 }

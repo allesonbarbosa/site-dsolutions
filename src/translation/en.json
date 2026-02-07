@@ -2,11 +2,33 @@
   "navbar": {
     "home": "Home",
     "sobre": "About",
-    "servicos": "Services",
+    "solucoes": "Solutions",
     "contato": "Contact"
   },
   "heroCard": {
     "titulo": "Data intelligence applied to foreign trade",
     "descricao": "Based on import and export operation data, Dsolutionscom generates strategic information that guides more efficient and consistent decisions."
+  },
+  "aboutCard": {
+    "quemSomos": {
+      "titulo": "Who are we?",
+      "descricao": "Dsolutionscom is a data intelligence company applied to foreign trade, focused on supporting companies in conducting more organized, consistent, and efficient import and export operations. Our work begins with the analysis of operational data to generate strategic information that supports decisions aligned with logistical realities."
+    },
+    "nossaAtuacao": {
+      "titulo": "Our performance",
+      "descricao": "With a lean structure and consultative approach, we work closely with operations, connecting data, analysis, and specialized guidance. We began our operations in Brazil with a methodology designed to serve operations with a global perspective."
+    },
+    "inteligenciaDados": {
+      "titulo": "How we understand data intelligence",
+      "descricao": "For Dsolutionscom, data intelligence goes beyond technology. It involves understanding the operational context, interpreting information with discernment, and supporting decisions that bring more clarity, predictability, and efficiency."
+    },
+    "nossoPosicionamento": {
+      "titulo": "Our positioning",
+      "descricao": "We believe that more efficient operations result from well-structured information, proper data interpretation, and decisions aligned with logistical realities."
+    },
+    "visao": {
+      "titulo": "Vision",
+      "descricao": "To act as a benchmark in data intelligence applied to foreign trade, supporting companies in conducting increasingly efficient and well-targeted operations."
+    }
   }
 }

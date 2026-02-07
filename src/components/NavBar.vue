@@ -26,10 +26,10 @@
               <a class="nav-link active mx-lg-2" aria-current="page" href="#">{{ $t('navbar.home') }}</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-lg-2" href="#">{{ $t('navbar.sobre') }}</a>
+              <a class="nav-link mx-lg-2" href="#about">{{ $t('navbar.sobre') }}</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-lg-2" href="#">{{ $t('navbar.servicos') }}</a>
+              <a class="nav-link mx-lg-2" href="#">{{ $t('navbar.solucoes') }}</a>
             </li>
             <li class="nav-item">
               <a class="nav-link mx-lg-2" href="#">{{ $t('navbar.contato') }}</a>
