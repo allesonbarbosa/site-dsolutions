@@ -1,0 +1,12 @@
+{
+  "navbar": {
+    "home": "Home",
+    "sobre": "About",
+    "servicos": "Services",
+    "contato": "Contact"
+  },
+  "heroCard": {
+    "titulo": "Data intelligence applied to foreign trade",
+    "descricao": "Based on import and export operation data, Dsolutionscom generates strategic information that guides more efficient and consistent decisions."
+  }
+}

@@ -1,15 +1,27 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="vh-100 d-flex justify-content-center">
+    <div class="row w-100">
+      <div class="col-md-4">
+        <BaseCard>
+        <h3>{{ $t('aboutCard.quemSomos.titulo') }}</h3>
+        <p class="fs-6">{{ $t('aboutCard.quemSomos.descricao') }}</p>
+        </BaseCard>
+      </div>
+      <div class="col-md-3">
+        <BaseCard></BaseCard>
+      </div>
+      <div class="col-md-3">
+        <BaseCard></BaseCard>
+      </div>
+      <div class="col-md-3">
+        <BaseCard></BaseCard>
+      </div>
+    </div>
   </div>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
+<script>
+export default {};
+</script>
+
+<style lang="scss" scoped></style>

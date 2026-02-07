@@ -2,55 +2,42 @@
   <!-- NavBar -->
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
-      <img :src="logo" alt="logo-dsolutions" class="navbar-logo" />
-      <h1 class="h3 text-white">DSolutions</h1>
+      <div class="logo-container d-flex align-items-center">
+        <img :src="logo" alt="logo-dsolutions" class="navbar-logo" />
+        <h1 class="h3 text-white">DSolutionscom</h1>
+      </div>
       <div
-        class="offcanvas offcanvas-end"
+        class="offcanvas text-bg-primary offcanvas-end"
         tabindex="-1"
         id="offcanvasNavbar"
         aria-labelledby="offcanvasNavbarLabel"
       >
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Logo</h5>
           <button
             type="button"
-            class="btn-close"
+            class="btn-close btn-close-white"
             data-bs-dismiss="offcanvas"
             aria-label="Close"
           ></button>
         </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+        <div class="offcanvas-body w-75">
+          <ul class="navbar-nav justify-content-center flex-grow-1 ps-5">
             <li class="nav-item">
-              <a class="nav-link active mx-lg-2" aria-current="page" href="#">Home</a>
+              <a class="nav-link active mx-lg-2" aria-current="page" href="#">{{ $t('navbar.home') }}</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-lg-2" href="#">Sobre</a>
+              <a class="nav-link mx-lg-2" href="#">{{ $t('navbar.sobre') }}</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-lg-2" href="#">Serviços</a>
+              <a class="nav-link mx-lg-2" href="#">{{ $t('navbar.servicos') }}</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-lg-2" href="#">Contato</a>
+              <a class="nav-link mx-lg-2" href="#">{{ $t('navbar.contato') }}</a>
             </li>
           </ul>
         </div>
       </div>
-      <div class="dropdown me-3">
-        <button
-          class="btn dropdown-toggle d-flex align-items-center gap-1"
-          type="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          <img :src="flagIcon" alt="flag-idioma" class="flag-idioma" />
-        </button>
-        <ul class="dropdown-menu dropdown-menu-end">
-          <li><a class="dropdown-item" href="#">Português</a></li>
-          <li><a class="dropdown-item" href="#">Inglês</a></li>
-          <li><a class="dropdown-item" href="#">Espanhol</a></li>
-        </ul>
-      </div>
+      <IdiomaSelect />
       <button
         class="navbar-toggler pe-0"
         type="button"
@@ -67,28 +54,26 @@
     <div
       class="container d-flex align-items-center justify-content-center fs-1 text-white flex-column"
     >
-      <div class="hero-card d-flex flex-column align-items-center">
-        <h1>Inteligência de dados aplicada ao comércio exterior</h1>
-        <p class="text-center">
-          A partir dos dados das operações de importação e exportação, a Dsolutionscom gera
-          informação estratégica que orienta decisões mais eficientes e consistentes.
-        </p>
-        <button class="btn btn-primary">Fale conosco</button>
-      </div>
+      <BaseCard class="d-flex align-items-center w-75">
+        <h1 class="text-white text-center">{{ $t('heroCard.titulo') }}</h1>
+        <p class="text-center text-light">{{ $t('heroCard.descricao') }}</p>
+        <button class="btn btn-primary">Fale conosco</button></BaseCard
+      >
+      <div class="hero-card d-flex flex-column align-items-center"></div>
     </div>
   </section>
   <!-- Hero section -->
 </template>
 
 <script>
-import Flag from '../assets/br.svg';
 import Logo from '../assets/logo2.png';
+import IdiomaSelect from './IdiomaSelect.vue';
 
 export default {
   name: 'NavBar',
+  components: { IdiomaSelect },
   data() {
     return {
-      flagIcon: Flag,
       logo: Logo,
     };
   },
@@ -101,12 +86,12 @@ export default {
   height: 80px;
   margin: 20px;
   border-radius: 16px;
-  padding: 0.5rem;
 }
 
 .navbar-toggler {
   border: none;
   font-size: 1.25rem;
+  color: white;
 }
 
 .navbar-toggler:focus,
@@ -141,6 +126,10 @@ export default {
   }
 }
 
+.nav-link.active {
+  color: white;
+}
+
 .nav-link:hover::before,
 .nav-link:active::before {
   width: 100%;
@@ -170,37 +159,9 @@ export default {
   position: relative;
 }
 
-.flag-idioma {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  object-fit: cover;
-  flex-shrink: 0;
-}
-
-.btn {
-  border: none;
-}
-
 .navbar-logo {
   width: 100px;
   height: 80px;
   border-radius: 50%;
-}
-.dropdown-toggle::after {
-  color: white;
-}
-
-.hero-card {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.03));
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
-  overflow: hidden;
-  padding: 26px;
-}
-p {
-  color: #a9b6d3;
-  font-size: 25px;
 }
 </style>

@@ -1,0 +1,34 @@
+{
+  "navbar": {
+    "home": "Home",
+    "sobre": "Sobre",
+    "servicos": "Serviços",
+    "contato": "Contato"
+  },
+  "heroCard": {
+    "titulo": "Inteligência de dados aplicada ao comércio exterior",
+    "descricao": "A partir dos dados das operações de importação e exportação, a Dsolutionscom gera informação estratégica que orienta decisões mais eficientes e consistentes."
+  },
+  "aboutCard": {
+    "quemSomos": {
+      "titulo": "Quem somos?",
+      "descricao": "A Dsolutionscom é uma empresa de inteligência de dados aplicada ao comércio exterior, focada em apoiar empresas na condução de operações de importação e exportação mais organizadas, consistentes e orientadas à eficiência. Nossa atuação parte da análise dos dados operacionais para gerar informação estratégica que apoia decisões alinhadas à realidade logística."
+    },
+    "nossaAtuacao": {
+      "titulo": "Nossa atuação",
+      "descricao": "Com estrutura enxuta e abordagem consultiva, atuamos de forma próxima às operações, conectando dados, análise e direcionamento especializado. Iniciamos nossa atuação no Brasil, com metodologia preparada para atender operações com visão global."
+    },
+    "inteligenciaDados": {
+      "titulo": "Como entendemos inteligência de dados",
+      "descricao": "Para a Dsolutionscom, inteligência de dados vai além da tecnologia. Envolve compreender o contexto operacional, interpretar informações com critério e apoiar decisões que tragam mais clareza, previsibilidade e eficiência."
+    },
+    "nossoPosicionamento": {
+      "titulo": "Nosso posicionamento",
+      "descricao": "Acreditamos que operações mais eficientes são resultado de informação bem estruturada, leitura adequada dos dados e decisões alinhadas à realidade logística."
+    },
+    "visao": {
+      "titulo": "Visão",
+      "descricao": "Atuar como referência em inteligência de dados aplicada ao comércio exterior, apoiando empresas na condução de operações cada vez mais eficientes e bem direcionadas."
+    }
+  }
+}
