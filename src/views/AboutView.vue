@@ -1,6 +1,6 @@
 <template>
   <section
-    class="vh-100 d-flex flex-column justify-content-start align-items-center mt-3 gap-2 px-5"
+    class="d-flex flex-column justify-content-start align-items-center mt-3 gap-2 px-5"
     id="about"
   >
     <div class="text-center">
@@ -9,7 +9,7 @@
     </div>
     <div class="row w-100">
       <div v-for="(item, index) in cardItems" :key="index" class="col-lg-6 mb-3">
-        <BaseCard class="d-flex align-items-center text-center h-100">
+        <BaseCard class="d-flex align-items-center text-center h-100 p-3">
           <div class="icon-card">
             <img :src="getIcon(item.logo)" alt="logo-card" />
           </div>

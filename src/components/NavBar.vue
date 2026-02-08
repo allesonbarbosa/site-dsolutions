@@ -29,10 +29,10 @@
               <a class="nav-link mx-lg-2" href="#about">{{ $t('navbar.sobre') }}</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-lg-2" href="#">{{ $t('navbar.solucoes') }}</a>
+              <a class="nav-link mx-lg-2" href="#solucoes">{{ $t('navbar.solucoes') }}</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-lg-2" href="#">{{ $t('navbar.contato') }}</a>
+              <a class="nav-link mx-lg-2" href="#contato">{{ $t('navbar.contato') }}</a>
             </li>
           </ul>
         </div>
@@ -54,7 +54,7 @@
     <div
       class="container d-flex align-items-center justify-content-center fs-1 text-white flex-column"
     >
-      <BaseCard class="d-flex align-items-center w-75">
+      <BaseCard class="d-flex align-items-center w-75 p-3">
         <h1 class="text-white text-center">{{ $t('heroCard.titulo') }}</h1>
         <p class="text-center text-light">{{ $t('heroCard.descricao') }}</p>
         <button class="btn btn-primary">Fale conosco</button></BaseCard

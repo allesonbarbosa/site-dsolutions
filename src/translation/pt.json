@@ -30,5 +30,40 @@
       "titulo": "Visão",
       "descricao": "Atuar como referência em inteligência de dados aplicada ao comércio exterior, apoiando empresas na condução de operações cada vez mais eficientes e bem direcionadas."
     }
+  },
+  "solucoesCard": {
+    "titulo": "Conheça nossas soluções",
+    "descricao": "A Dsolutionscom atua na análise e interpretação de dados de importação e exportação, apoiando empresas na leitura mais clara de seus processos logísticos e operacionais.",
+    "analiseOperacional": {
+      "titulo": "Análise orientada à realidade operacional",
+      "descricao": "Cada operação possui particularidades. Nossa atuação considera estrutura logística, fluxos operacionais, custos e perfil de fornecedores, conectando dados à prática."
+    },
+    "businessIntelligence": {
+      "titulo": "Business Intelligence focado em Comex",
+      "descricao": "Utilizamos ferramentas de Business Intelligence para organizar e visualizar dados operacionais, sempre priorizando clareza, indicadores relevantes e apoio à decisão gerencial."
+    },
+    "acompanhamento": {
+      "titulo": "Acompanhamento especializado",
+      "descricao": "Além da análise, oferecemos acompanhamento com especialista em comércio exterior, apoiando interpretação, avaliação de cenários e direcionamento estratégico."
+    }
+  },
+  "atuacoesCard": {
+    "titulo": "Como atuamos?",
+    "item1": {
+      "titulo": "Dados que orientam decisões mais eficientes",
+      "descricao": "As operações de importação e exportação geram informações em cada etapa do processo logístico. Quando analisados de forma estruturada, esses dados passam a revelar padrões, indicar oportunidades de melhoria e apoiar decisões mais alinhadas à realidade operacional. Essa leitura contribui para operações mais organizadas, previsíveis e eficientes, com maior controle sobre custos, prazos e desempenho logístico."
+    },
+    "item2": {
+      "titulo": "Muito além de relatórios e indicadores",
+      "descricao": "A inteligência de dados aplicada ao comércio exterior vai além da visualização de informações. O valor está na capacidade de interpretar os dados no contexto das operações, conectando números à dinâmica logística e às decisões do dia a dia. Ao unir análise de dados e conhecimento prático de importação e exportação, criamos uma base sólida para decisões mais consistentes e alinhadas aos objetivos operacionais."
+    },
+    "item3": {
+      "titulo": "Eficiência construída a partir da informação",
+      "descricao": "A clareza sobre dados operacionais permite uma condução mais segura das operações de importação e exportação. Ao compreender custos, prazos e fluxos logísticos, as decisões tornam-se mais bem direcionadas e alinhadas à realidade da operação. Essa abordagem favorece processos mais fluidos, melhor uso dos recursos e uma gestão logística naturalmente mais eficiente."
+    },
+    "item4": {
+      "titulo": "Uma abordagem integrada para operações de Comex",
+      "descricao": "A Dsolutionscom atua de forma integrada, combinando análise de dados com acompanhamento especializado. As informações geradas são interpretadas à luz da realidade operacional de cada cliente. A partir da leitura dos dados operacionais e logísticos, apoiamos decisões mais conscientes, inclusive na avaliação e contratação de fornecedores e provedores logísticos, contribuindo para escolhas alinhadas a desempenho, custo e perfil operacional."
+    }
   }
 }
