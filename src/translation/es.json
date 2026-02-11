@@ -5,6 +5,11 @@
     "solucoes": "Soluciones",
     "contato": "Contacto"
   },
+  "idiomas": {
+    "br": "Portugués",
+    "en": "Inglés",
+    "es": "Español"
+  },
   "heroCard": {
     "titulo": "Inteligencia de datos aplicada al comercio exterior",
     "descricao": "A partir de datos de operaciones de importación y exportación, Dsolutionscom genera información estratégica que orienta decisiones más eficientes y consistentes."
@@ -30,5 +35,65 @@
       "titulo": "Visión",
       "descricao": "Actuar como referente en inteligencia de datos aplicada al comercio exterior, apoyando a las empresas en la realización de operaciones cada vez más eficientes y mejor orientadas."
     }
+  },
+  "solucoesCard": {
+    "titulo": "Descubra nuestras soluciones",
+    "descricao": "Dsolutionscom se especializa en el análisis e interpretación de datos de importación y exportación, ayudando a las empresas a obtener una comprensión más clara de sus procesos logísticos y operativos.",
+    "analiseOperacional": {
+      "titulo": "Análisis centrado en la realidad operativa.",
+      "descricao": "Cada operación tiene sus propias características únicas. Nuestro enfoque considera la estructura logística, los flujos operativos, los costos y los perfiles de los proveedores, conectando los datos con la aplicación práctica."
+    },
+    "businessIntelligence": {
+      "titulo": "Inteligencia de Negocios enfocada al Comercio Exterior",
+      "descricao": "Utilizamos herramientas de Business Intelligence para organizar y visualizar datos operativos, priorizando siempre la claridad, los indicadores relevantes y el apoyo a la toma de decisiones gerenciales."
+    },
+    "acompanhamento": {
+      "titulo": "Soporte especializado",
+      "descricao": "Además del análisis, ofrecemos el apoyo de un especialista en comercio exterior, proporcionando interpretación, evaluación de escenarios y orientación estratégica."
+    }
+  },
+  "atuacoesCard": {
+    "titulo": "¿Cómo actuamos?",
+    "item1": {
+      "titulo": "Datos que orientan decisiones más eficientes.",
+      "descricao": "Las operaciones de importación y exportación generan información en cada etapa del proceso logístico. Al analizarse de forma estructurada, estos datos revelan patrones, indican oportunidades de mejora y respaldan decisiones más ajustadas a la realidad operativa. Este análisis contribuye a operaciones más organizadas, predecibles y eficientes, con un mayor control sobre costos, plazos y rendimiento logístico."
+    },
+    "item2": {
+      "titulo": "Mucho más allá de informes e indicadores.",
+      "descricao": "La inteligencia de datos aplicada al comercio exterior va más allá de la visualización de información. Su valor reside en la capacidad de interpretar los datos en el contexto operativo, conectando las cifras con la dinámica logística y las decisiones diarias. Al combinar el análisis de datos con el conocimiento práctico de la importación y la exportación, creamos una base sólida para tomar decisiones más consistentes y alineadas con los objetivos operativos."
+    },
+    "item3": {
+      "titulo": "Eficiencia construida a partir de la información.",
+      "descricao": "La claridad en los datos operativos permite una gestión más segura de las operaciones de importación y exportación. Al comprender los costos, los plazos y los flujos logísticos, las decisiones se alinean mejor con la realidad de la operación. Este enfoque promueve procesos más ágiles, un mejor uso de los recursos y, por supuesto, una gestión logística más eficiente."
+    },
+    "item4": {
+      "titulo": "Un enfoque integrado a las operaciones de comercio exterior.",
+      "descricao": "Dsolutionscom opera de forma integrada, combinando el análisis de datos con la monitorización especializada. La información generada se interpreta según la realidad operativa de cada cliente. Con base en el análisis de datos operativos y logísticos, facilitamos la toma de decisiones más informadas, incluyendo la evaluación y contratación de proveedores y proveedores logísticos, contribuyendo a la toma de decisiones alineadas con el rendimiento, el coste y el perfil operativo."
+    },
+    "item5": {
+      "titulo": "Para empresas que valoran la claridad y la eficiencia.",
+      "descricao": "Dsolutions.com presta servicios a empresas de importación y exportación que buscan mayor organización, control y dirección en sus operaciones logísticas. Estas organizaciones reconocen el valor de los datos operativos como base para la toma de decisiones consistentes y una gestión logística centrada en la eficiencia y la previsibilidad."
+    },
+    "item6": {
+      "titulo": "Beneficios",
+      "descricao": "Al estructurar e interpretar los datos de importación y exportación, las empresas obtienen una visión más clara de su rendimiento logístico y operativo. Esta claridad se traduce en decisiones mejor informadas, un mayor control de los procesos y una mejor coordinación entre departamentos. Con el tiempo, este enfoque contribuye a una mayor previsibilidad y una gestión logística más consistente."
+    }
+  },
+  "contatoCard": {
+    "titulo": "Una conversación puede aportar más claridad a tus operaciones.",
+    "descricao": "Una mejor comprensión de los datos de las operaciones de importación y exportación es un paso importante para tomar decisiones más alineadas, organizar mejor los procesos y optimizar la gestión logística. Dsolutionscom está preparado para apoyar el análisis de datos y contribuir con orientación estratégica, respetando la realidad y los plazos de cada operación.",
+    "subtitulo": "Hable con Dsolutions.com. Estamos disponibles para comprender el contexto de sus operaciones y evaluar cómo la inteligencia de datos puede contribuir a la toma de decisiones más claras y eficientes.",
+    "camposFormulario": {
+      "nome": "Nombre",
+      "empresa": "Empresa",
+      "email": "Correo electrónico corporativo",
+      "telefone": "Teléfono",
+      "descricao": "Breve descripción del funcionamiento",
+      "submit": "Enviar"
+    }
+  },
+  "footer": {
+    "mapaSite": "Mapa del sitio",
+    "direitos": "© {ano} Dsolutionscom — Reservados todos los derechos."
   }
 }

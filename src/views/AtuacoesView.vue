@@ -1,6 +1,6 @@
 <template>
   <section
-    class="d-flex flex-column justify-content-start align-items-center mt-3 gap-2 px-5"
+    class="d-flex flex-column justify-content-start align-items-center gap-2"
     id="about"
   >
     <div class="text-center">
@@ -13,7 +13,9 @@
             <img :src="getIcon(item.logo)" alt="logo-card" />
           </div>
           <div class="py-3 px-2">
-            <h5 class="text-primary border-bottom border-primary border-4 pb-3">{{ $t(`atuacoesCard.${item.title}.titulo`) }}</h5>
+            <h5 class="text-primary border-bottom border-primary border-4 pb-3">
+              {{ $t(`atuacoesCard.${item.title}.titulo`) }}
+            </h5>
             <p class="text-body-secondary">{{ $t(`atuacoesCard.${item.title}.descricao`) }}</p>
           </div>
         </div>
@@ -43,6 +45,14 @@ export default {
         {
           title: 'item4',
           logo: 'four',
+        },
+        {
+          title: 'item5',
+          logo: 'five',
+        },
+        {
+          title: 'item6',
+          logo: 'six',
         },
       ],
     };

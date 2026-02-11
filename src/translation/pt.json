@@ -5,6 +5,11 @@
     "solucoes": "Soluções",
     "contato": "Contato"
   },
+  "idiomas": {
+    "br": "Português",
+    "en": "Inglês",
+    "es": "Espanhol"
+  },
   "heroCard": {
     "titulo": "Inteligência de dados aplicada ao comércio exterior",
     "descricao": "A partir dos dados das operações de importação e exportação, a Dsolutionscom gera informação estratégica que orienta decisões mais eficientes e consistentes."
@@ -64,6 +69,31 @@
     "item4": {
       "titulo": "Uma abordagem integrada para operações de Comex",
       "descricao": "A Dsolutionscom atua de forma integrada, combinando análise de dados com acompanhamento especializado. As informações geradas são interpretadas à luz da realidade operacional de cada cliente. A partir da leitura dos dados operacionais e logísticos, apoiamos decisões mais conscientes, inclusive na avaliação e contratação de fornecedores e provedores logísticos, contribuindo para escolhas alinhadas a desempenho, custo e perfil operacional."
+    },
+    "item5": {
+      "titulo": "Para empresas que valorizam clareza e eficiência",
+      "descricao": "A Dsolutionscom atende empresas que atuam com importação e exportação e buscam maior organização, controle e direcionamento na condução de suas operações logísticas. São organizações que reconhecem o valor dos dados operacionais como base para decisões consistentes e para uma gestão logística orientada à eficiência e previsibilidade."
+    },
+    "item6": {
+      "titulo": "Benefícios",
+      "descricao": "Ao estruturar e interpretar os dados das operações de importação e exportação, as empresas passam a ter uma visão mais clara de seu desempenho logístico e operacional. Essa clareza se reflete em decisões mais bem direcionadas, maior controle dos processos e melhor alinhamento entre áreas. Com o tempo, essa forma de condução contribui para maior previsibilidade e uma gestão logística mais consistente."
     }
+  },
+  "contatoCard": {
+    "titulo": "Uma conversa pode trazer mais clareza às suas operações",
+    "descricao": "Entender melhor os dados das operações de importação e exportação é um passo importante para decisões mais alinhadas, processos mais organizados e uma condução logística mais eficiente. A Dsolutionscom está preparada para apoiar a leitura dos dados e contribuir com direcionamento estratégico, respeitando a realidade e o momento de cada operação.",
+    "subtitulo": "Converse com a Dsolutionscom. Estamos disponíveis para entender o contexto das suas operações e avaliar como a inteligência de dados pode apoiar decisões mais claras e eficientes.",
+    "camposFormulario": {
+      "nome": "Nome",
+      "empresa": "Empresa",
+      "email": "E-mail corporativo",
+      "telefone": "Telefone",
+      "descricao": "Breve descrição da operação",
+      "submit": "Enviar"
+    }
+  },
+  "footer": {
+    "mapaSite": "Mapa do site",
+    "direitos": "© {ano} Dsolutionscom — Todos os direitos reservados."
   }
 }

@@ -1,6 +1,6 @@
 <template>
   <section
-    class="d-flex flex-column justify-content-start align-items-center mt-3 gap-2 px-5"
+    class="d-flex flex-column justify-content-start align-items-center gap-2"
     id="about"
   >
     <div class="text-center">

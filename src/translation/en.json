@@ -5,6 +5,11 @@
     "solucoes": "Solutions",
     "contato": "Contact"
   },
+  "idiomas": {
+    "br": "Portuguese",
+    "en": "English",
+    "es": "Spanish"
+  },
   "heroCard": {
     "titulo": "Data intelligence applied to foreign trade",
     "descricao": "Based on import and export operation data, Dsolutionscom generates strategic information that guides more efficient and consistent decisions."
@@ -30,5 +35,65 @@
       "titulo": "Vision",
       "descricao": "To act as a benchmark in data intelligence applied to foreign trade, supporting companies in conducting increasingly efficient and well-targeted operations."
     }
+  },
+  "solucoesCard": {
+    "titulo": "Discover our solutions",
+    "descricao": "Dsolutionscom specializes in the analysis and interpretation of import and export data, supporting companies in gaining a clearer understanding of their logistics and operational processes.",
+    "analiseOperacional": {
+      "titulo": "Analysis focused on operational reality.",
+      "descricao": "Each operation has its own unique characteristics. Our approach considers logistical structure, operational flows, costs, and supplier profiles, connecting data to practical application."
+    },
+    "businessIntelligence": {
+      "titulo": "Business Intelligence focused on Foreign Trade",
+      "descricao": "We use Business Intelligence tools to organize and visualize operational data, always prioritizing clarity, relevant indicators, and support for managerial decision-making."
+    },
+    "acompanhamento": {
+      "titulo": "Specialized support",
+      "descricao": "In addition to analysis, we offer support from a foreign trade specialist, providing interpretation, scenario assessment, and strategic guidance."
+    }
+  },
+  "atuacoesCard": {
+    "titulo": "How do we act?",
+    "item1": {
+      "titulo": "Data that guides more efficient decisions.",
+      "descricao": "Import and export operations generate information at each stage of the logistics process. When analyzed in a structured way, this data reveals patterns, indicates opportunities for improvement, and supports decisions more aligned with operational reality. This analysis contributes to more organized, predictable, and efficient operations, with greater control over costs, deadlines, and logistics performance."
+    },
+    "item2": {
+      "titulo": "Far beyond reports and indicators.",
+      "descricao": "Data intelligence applied to foreign trade goes beyond information visualization. Its value lies in the ability to interpret data within the context of operations, connecting numbers to logistical dynamics and day-to-day decisions. By combining data analysis with practical knowledge of import and export, we create a solid foundation for more consistent decisions aligned with operational objectives."
+    },
+    "item3": {
+      "titulo": "Efficiency built from information.",
+      "descricao": "Clarity regarding operational data allows for safer management of import and export operations. By understanding costs, deadlines, and logistics flows, decisions become better targeted and aligned with the reality of the operation. This approach fosters smoother processes, better use of resources, and naturally more efficient logistics management."
+    },
+    "item4": {
+      "titulo": "An integrated approach to foreign trade operations.",
+      "descricao": "Dsolutionscom operates in an integrated manner, combining data analysis with specialized monitoring. The information generated is interpreted in light of each client's operational reality. Based on the analysis of operational and logistical data, we support more informed decisions, including the evaluation and contracting of suppliers and logistics providers, contributing to choices aligned with performance, cost, and operational profile."
+    },
+    "item5": {
+      "titulo": "For companies that value clarity and efficiency.",
+      "descricao": "Dsolutionscom serves companies involved in import and export that seek greater organization, control, and direction in conducting their logistics operations. These are organizations that recognize the value of operational data as a basis for consistent decisions and for logistics management focused on efficiency and predictability."
+    },
+    "item6": {
+      "titulo": "Benefits",
+      "descricao": "By structuring and interpreting import and export data, companies gain a clearer view of their logistical and operational performance. This clarity translates into better-informed decisions, greater process control, and improved alignment between departments. Over time, this approach contributes to greater predictability and more consistent logistics management."
+    }
+  },
+  "contatoCard": {
+    "titulo": "A conversation can bring more clarity to your operations.",
+    "descricao": "A better understanding of import and export operation data is an important step towards more aligned decisions, more organized processes, and more efficient logistics management. Dsolutionscom is prepared to support data analysis and contribute with strategic guidance, respecting the reality and timing of each operation.",
+    "subtitulo": "Talk to Dsolutions.com. We're available to understand the context of your operations and assess how data intelligence can support clearer and more efficient decisions.",
+    "camposFormulario": {
+      "nome": "Name",
+      "empresa": "Enterprise",
+      "email": "Corporate email",
+      "telefone": "Phone",
+      "descricao": "Brief description of the operation",
+      "submit": "Submit"
+    }
+  },
+  "footer": {
+    "mapaSite": "Site map",
+    "direitos": "© {ano} Dsolutionscom — All rights reserved."
   }
 }

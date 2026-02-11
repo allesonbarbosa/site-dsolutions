@@ -1,5 +1,5 @@
 <template>
-  <div class="dropdown me-3">
+  <div class="dropdown">
     <button
       class="btn dropdown-toggle d-flex align-items-center gap-1"
       type="button"
@@ -9,42 +9,31 @@
       <img :src="flagIcon" alt="flag-idioma" class="flag-idioma" />
     </button>
     <ul class="dropdown-menu dropdown-menu-end bg-secondary">
-      <li>
-        <a class="dropdown-item" href="#" @click="changeIdioma('pt')">
-          <img :src="flag.pt" alt="flag-idioma" class="flag-idioma me-1" />
-          Português
+      <li v-for="(idioma, index) in idiomas" :key="index">
+        <a class="dropdown-item" href="#" @click="changeIdioma(idioma)">
+          <img :src="flag[idioma]" alt="flag-idioma" class="flag-idioma me-1" />
+          {{ $t(`idiomas.${idioma}`) }}
         </a>
-      </li>
-      <li>
-        <a class="dropdown-item" href="#" @click="changeIdioma('en')">
-          <img :src="flag.en" alt="flag-idioma" class="flag-idioma me-1" />
-          Inglês</a
-        >
-      </li>
-      <li>
-        <a class="dropdown-item" href="#" @click="changeIdioma('es')">
-          <img :src="flag.es" alt="flag-idioma" class="flag-idioma me-1" />
-          Espanhol</a
-        >
       </li>
     </ul>
   </div>
 </template>
 
 <script>
-import FlagBr from '@/assets/br.svg';
-import FlagEn from '@/assets/en.svg';
-import FlagEs from '@/assets/es.svg';
+import FlagBr from '@/assets/flags/br.svg';
+import FlagEn from '@/assets/flags/en.svg';
+import FlagEs from '@/assets/flags/es.svg';
 
 export default {
   name: 'IdiomaSelect',
   data() {
     return {
       flag: {
-        pt: FlagBr,
+        br: FlagBr,
         en: FlagEn,
         es: FlagEs,
       },
+      idiomas: ['br', 'en', 'es'],
     };
   },
   computed: {
