@@ -29,11 +29,11 @@ export default {
   data() {
     return {
       flag: {
-        br: FlagBr,
+        pt: FlagBr,
         en: FlagEn,
         es: FlagEs,
       },
-      idiomas: ['br', 'en', 'es'],
+      idiomas: ['pt', 'en', 'es'],
     };
   },
   computed: {

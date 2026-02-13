@@ -6,8 +6,10 @@
       <BaseCard class="d-flex align-items-center w-75 p-3">
         <h1 class="text-white text-center">{{ $t('heroCard.titulo') }}</h1>
         <p class="text-center text-light fs-4">{{ $t('heroCard.descricao') }}</p>
-        <button class="btn btn-primary">Fale conosco</button></BaseCard
-      >
+        <a href="#contato" class="btn btn-primary btn-lg">
+          {{ $t('heroCard.faleConosco') }}
+        </a>
+      </BaseCard>
       <div class="hero-card d-flex flex-column align-items-center"></div>
     </div>
   </section>
@@ -20,6 +22,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.btn:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
+
 .hero-section {
   background: url(../assets/eagle.jpeg) no-repeat center;
   background-size: cover;

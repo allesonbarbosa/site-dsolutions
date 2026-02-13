@@ -6,13 +6,14 @@
     "contato": "Contato"
   },
   "idiomas": {
-    "br": "Português",
+    "pt": "Português",
     "en": "Inglês",
     "es": "Espanhol"
   },
   "heroCard": {
     "titulo": "Inteligência de dados aplicada ao comércio exterior",
-    "descricao": "A partir dos dados das operações de importação e exportação, a Dsolutionscom gera informação estratégica que orienta decisões mais eficientes e consistentes."
+    "descricao": "A partir dos dados das operações de importação e exportação, a Dsolutionscom gera informação estratégica que orienta decisões mais eficientes e consistentes.",
+    "faleConosco": "Fale conosco"
   },
   "aboutCard": {
     "quemSomos": {
@@ -89,7 +90,15 @@
       "email": "E-mail corporativo",
       "telefone": "Telefone",
       "descricao": "Breve descrição da operação",
-      "submit": "Enviar"
+      "submit": "Enviar",
+      "loadingSubimt": "Enviando e-mail",
+      "fechar": "Fechar",
+      "feedback": {
+        "tituloSucesso": "Sua mensagem foi enviada!",
+        "textoSucesso": "Em breve a Dsolutionscom entra em contato com você.",
+        "tituloErro": "Erro ao enviar sua mensagem!",
+        "textoErro": "Por favor, tente novamente em alguns instantes ou entre em contato pelo Whatsapp."
+      }
     }
   },
   "footer": {

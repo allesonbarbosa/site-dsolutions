@@ -6,13 +6,14 @@
     "contato": "Contact"
   },
   "idiomas": {
-    "br": "Portuguese",
+    "pt": "Portuguese",
     "en": "English",
     "es": "Spanish"
   },
   "heroCard": {
     "titulo": "Data intelligence applied to foreign trade",
-    "descricao": "Based on import and export operation data, Dsolutionscom generates strategic information that guides more efficient and consistent decisions."
+    "descricao": "Based on import and export operation data, Dsolutionscom generates strategic information that guides more efficient and consistent decisions.",
+    "faleConosco": "Contact us"
   },
   "aboutCard": {
     "quemSomos": {
@@ -89,7 +90,15 @@
       "email": "Corporate email",
       "telefone": "Phone",
       "descricao": "Brief description of the operation",
-      "submit": "Submit"
+      "submit": "Submit",
+      "loadingSubimt": "Sending email",
+      "fechar": "Close",
+      "feedback": {
+        "tituloSucesso": "Your message has been sent!",
+        "textoSucesso": "Dsolutionscom will contact you soon.",
+        "tituloErro": "Error sending your message!",
+        "textoErro": "Please try again in a few moments or contact us via WhatsApp."
+      }
     }
   },
   "footer": {

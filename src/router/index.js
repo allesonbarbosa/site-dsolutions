@@ -9,9 +9,7 @@ const routes = [
     path: '/',
     redirect: () => {
       const browserLang = navigator.language.split('-')[0];
-      return SUPPORT_LOCALES.includes(browserLang)
-        ? `/${browserLang}`
-        : `/${DEFAULT_LOCALE}`;
+      return SUPPORT_LOCALES.includes(browserLang) ? `/${browserLang}` : `/${DEFAULT_LOCALE}`;
     },
   },
 
@@ -24,6 +22,28 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
+  scrollBehavior(to, from) {
+    if (!from.name && to.hash) {
+      return { top: 0 };
+    }
+
+    if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: 'smooth',
+      };
+    }
+
+    return { top: 0 };
+  },
+});
+
+router.afterEach((to) => {
+    history.replaceState(
+      null,
+      '',
+      to.path,
+    );
 });
 
 export default router;
