@@ -29,9 +29,7 @@
               }}</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-lg-2" href="#about">{{
-                $t('navbar.sobre')
-              }}</a>
+              <a class="nav-link mx-lg-2" href="#about">{{ $t('navbar.sobre') }}</a>
             </li>
             <li class="nav-item">
               <a class="nav-link mx-lg-2" href="#solucoes">{{ $t('navbar.solucoes') }}</a>
@@ -44,16 +42,15 @@
       </div>
       <div class="d-flex">
         <IdiomaSelect />
-        <button
-          class="navbar-toggler pe-0"
-          type="button"
+        <a
+          class="navbar-toggler pe-0 d-flex align-items-center"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar"
           aria-controls="offcanvasNavbar"
-          aria-label="Toggle navigation"
+          aria-label="burger"
         >
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </a>
       </div>
     </div>
   </nav>
@@ -115,6 +112,9 @@ export default {
     background-color: #fff;
     visibility: hidden;
     transition: 0.3s ease-in-out;
+  }
+  .navbar-toggler {
+    display: none !important;
   }
 }
 
