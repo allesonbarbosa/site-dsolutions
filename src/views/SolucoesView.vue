@@ -5,7 +5,7 @@
   >
     <div class="text-center">
       <h1 class="text-primary">{{ $t('solucoesCard.titulo') }}</h1>
-      <p class="fs-5 text-body-secondary">{{ $t('solucoesCard.descricao') }}</p>
+      <p class="text-body-secondary">{{ $t('solucoesCard.descricao') }}</p>
     </div>
     <div class="row w-100">
       <div v-for="(item, index) in cardItems" :key="index" class="col-md-4 mb-3">
@@ -13,8 +13,8 @@
           <div class="image-card mb-2">
             <img :src="getIcon(item.logo)" alt="logo-card" />
           </div>
-          <h5 class="text-primary px-3">{{ $t(`solucoesCard.${item.title}.titulo`) }}</h5>
-          <p class="text-body-secondary px-3">{{ $t(`solucoesCard.${item.title}.descricao`) }}</p>
+          <h5 class="text-primary px-2">{{ $t(`solucoesCard.${item.title}.titulo`) }}</h5>
+          <span class="text-body-secondary pb-2 px-2">{{ $t(`solucoesCard.${item.title}.descricao`) }}</span>
         </BaseCard>
       </div>
     </div>
@@ -57,7 +57,6 @@ export default {
 
 <style lang="scss" scoped>
 .image-card {
-  height: 220px;
   width: 100%;
   overflow: hidden;
 }

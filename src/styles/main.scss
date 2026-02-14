@@ -1,10 +1,105 @@
 @import 'variables';
 @import 'bootstrap/scss/bootstrap';
 
-p {
-  font-size: 26px;
-}
-
 html {
   scroll-behavior: smooth;
+}
+/* mobile first */
+h1 {
+  font-size: 1.5rem !important;
+}
+
+h5 {
+  font-size: 1rem !important;
+}
+
+p {
+  font-size: 1rem !important;
+}
+
+span {
+  font-size: 0.75rem !important;
+}
+
+label {
+  font-size: 1rem;
+}
+
+.icon-card {
+  width: 60px;
+}
+
+.icon-card > img {
+  width: 60px;
+}
+
+.logo-text {
+  font-size: 1.25rem;
+}
+
+.navbar-logo {
+  width: 60px;
+}
+
+.footer-logo {
+  width: 80px;
+}
+.image-card {
+  height: 150px;
+}
+
+/* md ≥ 768px */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+  h5 {
+    font-size: 1.25rem !important;
+  }
+  p {
+    font-size: 1.25rem !important;
+  }
+  span {
+    font-size: 1rem !important;
+  }
+  .logo-text {
+    font-size: 1.5rem;
+  }
+}
+
+/* lg ≥ 992px */
+@media (min-width: 992px) {
+  h1 {
+    font-size: 2rem !important;
+  }
+  h5 {
+    font-size: 1.5rem !important;
+  }
+  p {
+    font-size: 1.5rem !important;
+  }
+  span {
+    font-size: 1.25rem !important;
+  }
+  .logo-text {
+    font-size: 1.75rem;
+  }
+  .icon-card {
+    width: 90px;
+  }
+  .icon-card > img {
+    width: 90px;
+  }
+  label {
+    font-size: 1.25rem;
+  }
+  .navbar-logo {
+    width: 90px;
+  }
+  .footer-logo {
+    width: 130px;
+  }
+  .image-card {
+    height: 220px;
+  }
 }

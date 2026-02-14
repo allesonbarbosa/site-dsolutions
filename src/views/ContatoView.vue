@@ -1,10 +1,10 @@
 <template>
-  <section id="contato" class="bg-primary mt-3 p-5">
-    <BaseCard class="px-5 py-3">
+  <section id="contato" class="bg-primary mt-3 p-md-5 p-3">
+    <BaseCard class="px-md-5 px-2 py-3">
       <div class="text-center">
         <h1 class="text-white">{{ $t('contatoCard.titulo') }}</h1>
-        <p class="fs-5 text-light">{{ $t('contatoCard.descricao') }}</p>
-        <p class="fs-5 text-light">{{ $t('contatoCard.subtitulo') }}</p>
+        <p class="text-light">{{ $t('contatoCard.descricao') }}</p>
+        <p class="text-light">{{ $t('contatoCard.subtitulo') }}</p>
       </div>
       <form @submit.prevent="submitForm">
         <!-- Honeypot invisível (anti-spam) -->

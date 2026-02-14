@@ -1,10 +1,10 @@
 <template>
-  <section id="footer" class="bg-primary px-5">
+  <section id="footer" class="bg-primary px-md-5 px-3">
     <div class="d-flex justify-content-between border-top border-light py-5">
       <div class="d-flex flex-column">
         <img class="footer-logo" :src="logo" alt="imagem-logo" />
-        <h1 class="text-white fs-2 ms-2 m-0">DSolutionscom</h1>
-        <p class="text-white fs-5 ms-2 m-0">{{ $t('heroCard.titulo') }}</p>
+        <h5 class="text-white ms-2 m-0">DSolutionscom</h5>
+        <span class="text-white ms-2 m-0">{{ $t('heroCard.titulo') }}</span>
       </div>
       <div class="pe-3">
         <h6 class="text-white">{{ $t('footer.mapaSite') }}</h6>
@@ -26,9 +26,9 @@
         </ul>
       </div>
     </div>
-    <p class="text-white text-center m-0 fs-6">
+    <span class="text-white m-0 d-flex justify-content-center">
       {{ $t('footer.direitos', { ano: getAno }) }}
-    </p>
+    </span>
   </section>
 </template>
 
@@ -51,7 +51,6 @@ export default {
 
 <style lang="scss" scoped>
 .footer-logo {
-  width: 130px;
   height: auto;
 }
 </style>

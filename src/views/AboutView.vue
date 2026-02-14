@@ -5,16 +5,16 @@
   >
     <div class="text-center">
       <h1 class="text-primary">{{ $t('aboutCard.quemSomos.titulo') }}</h1>
-      <p class="fs-5 text-body-secondary">{{ $t('aboutCard.quemSomos.descricao') }}</p>
+      <p class="text-body-secondary">{{ $t('aboutCard.quemSomos.descricao') }}</p>
     </div>
     <div class="row w-100">
       <div v-for="(item, index) in cardItems" :key="index" class="col-lg-6 mb-3">
-        <BaseCard class="d-flex align-items-center text-center h-100 p-3">
+        <BaseCard class="d-flex align-items-center text-center h-100 p-2">
           <div class="icon-card">
             <img :src="getIcon(item.logo)" alt="logo-card" />
           </div>
           <h5 class="text-primary">{{ $t(`aboutCard.${item.title}.titulo`) }}</h5>
-          <p class="text-body-secondary">{{ $t(`aboutCard.${item.title}.descricao`) }}</p>
+          <span class="text-body-secondary">{{ $t(`aboutCard.${item.title}.descricao`) }}</span>
         </BaseCard>
       </div>
     </div>
@@ -63,13 +63,11 @@ export default {
 .icon-card > img {
   filter: invert(1);
   padding: 1rem;
-  width: 90px;
 }
 
 .icon-card {
   background-color: var(--bs-primary);
   border-radius: 50%;
-  width: 90px;
   margin-bottom: 1rem;
 }
 

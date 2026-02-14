@@ -4,7 +4,7 @@
     <div class="container-fluid">
       <div class="logo-container d-flex align-items-center">
         <img :src="logo" alt="logo-dsolutions" class="navbar-logo" />
-        <h1 class="h3 text-white">DSolutionscom</h1>
+        <h3 class="text-white pt-2 logo-text">DSolutionscom</h3>
       </div>
       <div
         class="offcanvas text-bg-primary offcanvas-end"
@@ -29,7 +29,9 @@
               }}</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-lg-2" href="#about">{{ $t('navbar.sobre') }}</a>
+              <a class="nav-link mx-lg-2" href="#about">{{
+                $t('navbar.sobre')
+              }}</a>
             </li>
             <li class="nav-item">
               <a class="nav-link mx-lg-2" href="#solucoes">{{ $t('navbar.solucoes') }}</a>
@@ -127,7 +129,6 @@ export default {
 }
 
 .navbar-logo {
-  width: 85px;
   height: auto;
 }
 .navbar-toggler-icon {

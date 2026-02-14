@@ -16,7 +16,7 @@
             <h5 class="text-primary border-bottom border-primary border-4 pb-3">
               {{ $t(`atuacoesCard.${item.title}.titulo`) }}
             </h5>
-            <p class="text-body-secondary">{{ $t(`atuacoesCard.${item.title}.descricao`) }}</p>
+            <span class="text-body-secondary">{{ $t(`atuacoesCard.${item.title}.descricao`) }}</span>
           </div>
         </div>
       </div>
@@ -74,12 +74,10 @@ export default {
 .icon-card > img {
   filter: invert(1);
   padding: 1rem;
-  width: 90px;
 }
 
 .icon-card {
   background-color: var(--bs-primary);
-  width: 90px;
   height: 100%;
   border-radius: 50%;
 }
