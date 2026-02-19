@@ -70,8 +70,4 @@ export default {
   border-radius: 50%;
   margin-bottom: 1rem;
 }
-
-p {
-  font-size: 15px;
-}
 </style>

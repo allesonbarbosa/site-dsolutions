@@ -180,5 +180,3 @@ Descrição: ${this.form.descricao}
   },
 };
 </script>
-
-<style lang="scss" scoped></style>

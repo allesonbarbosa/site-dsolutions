@@ -103,6 +103,9 @@
   },
   "footer": {
     "mapaSite": "Site map",
-    "direitos": "© {ano} Dsolutionscom — All rights reserved."
+    "direitos": "© {ano} Dsolutionscom — All rights reserved.",
+    "contatos": "Contacts",
+    "telefone": "Phone: ",
+    "email": "E-mail: "
   }
 }

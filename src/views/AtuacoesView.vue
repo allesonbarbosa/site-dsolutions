@@ -81,8 +81,4 @@ export default {
   height: 100%;
   border-radius: 50%;
 }
-
-p {
-  font-size: 15px;
-}
 </style>

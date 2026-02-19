@@ -68,13 +68,4 @@ export default {
     object-fit: fill;
   }
 }
-
-.image-card img {
-  width: 100%;
-  height: 100%;
-}
-
-p {
-  font-size: 15px;
-}
 </style>
