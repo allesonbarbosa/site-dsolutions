@@ -36,7 +36,6 @@ export default {
 .hero-container {
   background-color: #030001;
   padding: 5px 20px;
-  height: 100vh;
 }
 .hero-title {
   text-transform: uppercase;
