@@ -48,7 +48,7 @@ export default {
   overflow: hidden;
 }
 .hero-title {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 500;
   color: #ffffff;
   text-transform: uppercase;
