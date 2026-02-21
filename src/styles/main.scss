@@ -45,10 +45,6 @@ label {
   width: 80px;
 }
 
-.hero-image {
-  width: 65vw;
-}
-
 /* md ≥ 768px */
 @media (min-width: 768px) {
   h1 {
@@ -65,9 +61,6 @@ label {
   }
   .logo-text {
     font-size: 1.5rem;
-  }
-  .hero-image {
-    width: 45vw;
   }
 }
 
@@ -102,8 +95,5 @@ label {
   }
   .footer-logo {
     width: 130px;
-  }
-  .hero-image {
-    width: 40vw;
   }
 }
