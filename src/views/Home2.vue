@@ -48,7 +48,7 @@ export default {
   overflow: hidden;
 }
 .hero-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   color: #ffffff;
   text-transform: uppercase;
