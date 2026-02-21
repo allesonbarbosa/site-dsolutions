@@ -32,7 +32,7 @@ export default {
 <style lang="scss" scoped>
 .hero-container {
   background-color: #030001;
-  height: calc(100vh - 70px);
+  height: calc(90vh - 70px);
 }
 
 .hero-title,
