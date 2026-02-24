@@ -23,18 +23,18 @@
         </div>
         <div class="offcanvas-body w-75">
           <ul class="navbar-nav justify-content-center flex-grow-1 ps-2">
-            <li class="nav-item">
+            <li class="nav-item" data-bs-dismiss="offcanvas">
               <a class="nav-link active mx-lg-2" aria-current="page" href="#">{{
                 $t('navbar.home')
               }}</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" data-bs-dismiss="offcanvas">
               <a class="nav-link mx-lg-2" href="#about">{{ $t('navbar.sobre') }}</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" data-bs-dismiss="offcanvas">
               <a class="nav-link mx-lg-2" href="#solucoes">{{ $t('navbar.solucoes') }}</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" data-bs-dismiss="offcanvas">
               <a class="nav-link mx-lg-2" href="#contato">{{ $t('navbar.contato') }}</a>
             </li>
           </ul>
